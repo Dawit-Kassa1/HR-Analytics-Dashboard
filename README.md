@@ -19,7 +19,7 @@ Create a governed HR analytics SSOT in Power BI with standardized KPI definition
 - Workforce distribution by **department**, **age group**, and **recruitment source**  
 - Compensation overview (**average salary**)
 
-- Dashboard Interaction <a href=”https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Image.png”>View Dashboard</a>
+- Dashboard Interaction <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Image.png">View Dashboard</a>
 
 ## Features
 - **KPI cards:** Headcount, Attrition Count, **Attrition %**, Avg Salary, Avg Age  
