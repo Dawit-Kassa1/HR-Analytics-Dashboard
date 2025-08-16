@@ -6,8 +6,9 @@ An end-to-end **Power BI** dashboard that gives HR leaders an executive view of 
 Create a governed HR analytics SSOT in Power BI with standardized KPI definitions, reliable refresh, and clear lineage, so leadership can review trusted workforce insights in minutes, not hours.
 
 ## Dataset Used
-- <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HRDataset_v14.xlsx">Dataset</a>
-
+- [Sample Excel dataset] <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HRDataset_v14.xlsx">Sample Excel Dataset</a>
+- [Power BI file (PBIX)] <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Project.pbix"> Power BI file (PBIX) </a>
+  
 ## Why this exists
 - **Problem:** Fragmented spreadsheets, inconsistent KPI formulas, slow reconciliation  
 - **Solution:** A governed SSOT with standardized definitions, a refresh cadence, and documented data lineage  
@@ -19,8 +20,6 @@ Create a governed HR analytics SSOT in Power BI with standardized KPI definition
 - How is the workforce distributed by department, age group, and recruitment source?  
 - What are the average salary and age demographics?
 
-- Power BI Dashboard Interaction <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Project.pbix">View Project </a>
-
 ## Features
 - KPI cards for headcount, attrition count, attrition rate, average salary, and average age  
 - Departmental breakdowns and age group visualizations  
@@ -29,6 +28,12 @@ Create a governed HR analytics SSOT in Power BI with standardized KPI definition
 - Drill-through to detailed employee-level data  
 - Exportable tables for Excel and CSV reporting  
 - Governed model with consistent naming, DAX standards, and KPI documentation
+
+## Outcomes & Impact
+
+- **Standardized KPIs** across pages (SSOT) → fewer follow-ups and rework  
+- **Faster HR reporting** (drill-through + exports) → less manual reconciliation  
+- **Actionable visibility** (dept/age/source trends) → better hiring and retention decisions
 
 ## Tech stack
 Power BI • Power Query • DAX • Data Modeling • (sample) Excel dataset
@@ -53,32 +58,31 @@ Power BI • Power Query • DAX • Data Modeling • (sample) Excel dataset
 ## Dashboard
 <img width="1487" height="1717" alt="HR Dashboard Screenshot" src="https://github.com/user-attachments/assets/583c0155-14b5-439f-a326-9727ff90fa5a" />
 
-### Key Insights
+- ## Key Insights
 
-- **High Attrition Rate (33.44%)**  
-  A significant portion of the workforce has left the organization, suggesting potential issues with employee satisfaction, retention strategies, or onboarding processes.
+- **Elevated attrition (33.44%)**  
+  One-third of the workforce left during the measured period. Priorities: review onboarding/retention, manager enablement, and exit themes.
 
-- **Departmental Distribution Imbalance**  
-  The **Production department** alone accounts for over **67%** of total headcount (209 out of 311), indicating possible over-reliance on one function or potential risk exposure in staffing.
+- **Department concentration in Production (≈67%)**  
+  Production accounts for **209 of 311** employees. This concentration increases workforce risk (single-function exposure) and capacity constraints.
 
-- **Age Demographics Concentrated (36–45)**  
-  Nearly **50% of employees** fall into the **36–45 age bucket**, with much smaller representation in younger or older age groups. This can impact succession planning and long-term workforce sustainability.
+- **Age profile is mid-career heavy (36–45 = 153 of 311, ~49%)**  
+  Lower representation in early-career/late-career bands suggests succession planning and knowledge transfer should be monitored.
 
-- **Recruitment Channels Are Skewed**  
-  Majority of hires come from just three sources: **Indeed, LinkedIn, and Google Search** — suggesting an opportunity to diversify recruiting channels for better talent reach.
+- **Recruitment mix is top-heavy in 2–3 sources**  
+  The majority of hires come from a few channels (e.g., **Indeed, LinkedIn, Google Search** in the sample). Diversifying sourcing may broaden reach and reduce channel risk.
 
-- **Gender & Marital Status Breakdown**  
-  Gender representation across marital statuses appears relatively balanced, though further DEI analysis could be conducted to ensure equitable hiring and promotion practices.
+- **Headcount trend is steadily up (cumulative)**  
+  Growth is consistent across years in the sample, which strengthens the case for proactive workforce planning and budget forecasting.
 
-- **Attrition Spikes Around 2011**  
-  The time series visualization shows a sharp spike in attrition during 2011, which may require historical context or further investigation into internal or external factors.
+> *Counts and proportions are taken from the sample dataset included in this repo.*
 
-- **Gradual Growth in Headcount**  
-  Yearly cumulative headcount shows healthy long-term growth, indicating expansion and increasing workforce investment over the years.
 
-### Business Conclusion
+### Conclusion
 
-- The dashboard reveals a high attrition rate in the Production department, indicating potential issues with working conditions, compensation, or management practices. Heavy reliance on a few recruitment channels may limit access to diverse talent. Age and tenure trends emphasize the importance of succession planning and knowledge transfer. By integrating interactive slicers, drill-through analysis, and exportable data views, the dashboard empowers HR teams with self-service analytics, improves reporting efficiency, and supports strategic decision-making. This project will help HR proactively address workforce challenges and align talent strategies with organizational goals.
+This dashboard centralizes HR reporting into a governed single source of truth and surfaces the few metrics leaders check first: **headcount, attrition %, salary, and age**. Insights show elevated attrition, heavy dependence on the Production function, and a mid-career-heavy age mix—pointing to actions in retention, sourcing diversification, and succession planning.  
+With drill-through, slicers, and exportable detail, HR can answer follow-ups in minutes instead of hours and align decisions with consistent KPI math.
+
 
 
 
