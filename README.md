@@ -4,3 +4,7 @@ An end-to-end **Power BI** dashboard that gives HR leaders an executive view of 
 
 ## Objective
 Create a governed HR analytics SSOT in Power BI with standardized KPI definitions, reliable refresh, and clear lineage, so leadership can review trusted workforce insights in minutes, not hours.
+
+## Dataset Used
+- <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HRDataset_v14.xlsx">Dataset</a>
+
