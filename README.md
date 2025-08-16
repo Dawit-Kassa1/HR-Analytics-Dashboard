@@ -1,4 +1,4 @@
-# HR Analytics Data Analysis (Interactive Dashboard creation using Power BI)
+# HR Analytics Interactive Dashboard (Power BI)
 
 An end-to-end **Power BI** dashboard that gives HR leaders an executive view of workforce health and trends. Tracks **headcount, attrition %, average salary, and average age** with drill-through and slicers for self-service analysis. Built as a governed **single source of truth (SSOT)** with a KPI catalog, naming standards, refresh cadence, and documented data lineage.
 
