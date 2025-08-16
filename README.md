@@ -14,19 +14,21 @@ Create a governed HR analytics SSOT in Power BI with standardized KPI definition
 - **Result:** Faster reviews, fewer follow-ups, and consistent workforce KPIs for leadership
 
 ## Key questions answered
-- Current **headcount** and how it’s trending  
-- **Attrition rate** and trend over time  
-- Workforce distribution by **department**, **age group**, and **recruitment source**  
-- Compensation overview (**average salary**)
+- What is the current headcount and how is it trending?  
+- What is the attrition rate and how has it changed over time?  
+- How is the workforce distributed by department, age group, and recruitment source?  
+- What are the average salary and age demographics?
 
-- Dashboard Interaction <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Image.png">View Dashboard</a>
+- Power BI Dashboard Interaction <a href="https://github.com/Dawit-Kassa1/HR-Analytics-Dashboard/blob/main/HR%20Dashboard%20Project.pbix">View Project d</a>
 
 ## Features
-- **KPI cards:** Headcount, Attrition Count, **Attrition %**, Avg Salary, Avg Age  
-- **Trend & composition pages:** Cumulative headcount, attrition trend, department/age breakdowns  
-- **Interactivity:** Slicers (department, position, status, state, gender) + drill-through to detail  
-- **Export:** Detail views exportable to Excel/CSV for ad-hoc reporting  
-- **Governance:** KPI catalog, naming standards, refresh cadence, and data lineage (SSOT)
+- KPI cards for headcount, attrition count, attrition rate, average salary, and average age  
+- Departmental breakdowns and age group visualizations  
+- Attrition trends and headcount growth over time  
+- Interactive slicers for department, position, employment status, state, and gender  
+- Drill-through to detailed employee-level data  
+- Exportable tables for Excel and CSV reporting  
+- Governed model with consistent naming, DAX standards, and KPI documentation
 
 ## Tech stack
 Power BI • Power Query • DAX • Data Modeling • (sample) Excel dataset
@@ -37,32 +39,16 @@ Power BI • Power Query • DAX • Data Modeling • (sample) Excel dataset
 - **Attrition %:** *Separations during period* ÷ *average headcount for the period*.  
 - **Average Salary / Age:** Mean values across the filtered population.
 
-> KPI math is standardized in the **KPI Catalog** and applied consistently across visuals.
+> All metrics are consistently defined in a centralized KPI catalog
 
-## Build process (end-to-end)
+## Build process 
 
-### 1) Import & inspect
-- Load the **Excel** dataset into **Power BI Desktop**.
-- Review fields, data types, missing values, and cardinality.
-
-### 2) Clean & transform (Power Query)
-- Promote headers and set correct data types (numbers/dates).
-- Trim/clean text, handle nulls, and create normalized columns.
-- Apply naming standards (readable column names), then **Close & Apply**.
-
-### 3) Modeling (DAX)
-- Create a dedicated **Measures** table for organized metrics.
-- Add measures: **Headcount**, **Attrition Count**, **Attrition %**, **Average Salary**, **Average Age**.
-- Add calculated columns for **Age** and **Age Bucket** (e.g., 26–35, 36–45, 46–55, 55+).
-
-### 4) Visual design
-- Build KPI cards + bar/line/donut charts (department, age buckets, recruitment source, trends).
-- Configure **slicers** (dropdowns with search) and **drill-through** to a Detail page.
-- Apply theme, titles, and consistent labels; align visuals; add explanatory tooltips.
-
-### 5) Governance
-- Document **KPI definitions**, naming standards, **refresh cadence**, and **data lineage**.
-- Hide drill-through pages, test slicers and measures, and validate totals vs. detail.
+- Import and inspect the Excel dataset in Power BI Desktop  
+- Clean and transform data using Power Query: typed columns, text cleanup, null handling  
+- Model and calculate KPIs with DAX and build an organized Measures table  
+- Design visual layout with aligned charts, slicers, tooltips, and labels  
+- Configure drill-through navigation and validate total vs. detail calculations  
+- Document refresh cadence, naming conventions, and lineage to support governance
 
 ## Dashboard
 <img width="1487" height="1717" alt="HR Dashboard Screenshot" src="https://github.com/user-attachments/assets/583c0155-14b5-439f-a326-9727ff90fa5a" />
@@ -92,7 +78,7 @@ Power BI • Power Query • DAX • Data Modeling • (sample) Excel dataset
 
 ### Business Conclusion
 
-- The dashboard reveals a high attrition rate in the Production department, indicating potential issues with working conditions, compensation, or management practices. Heavy reliance on a few recruitment channels may limit access to diverse talent. Age and tenure trends emphasize the importance of succession planning and knowledge transfer. By integrating interactive slicers, drill-through analysis, and exportable data views, the dashboard empowers HR teams with self-service analytics, improves reporting efficiency, and supports strategic decision-making. These insights help HR proactively address workforce challenges and align talent strategies with organizational goals.
+- The dashboard reveals a high attrition rate in the Production department, indicating potential issues with working conditions, compensation, or management practices. Heavy reliance on a few recruitment channels may limit access to diverse talent. Age and tenure trends emphasize the importance of succession planning and knowledge transfer. By integrating interactive slicers, drill-through analysis, and exportable data views, the dashboard empowers HR teams with self-service analytics, improves reporting efficiency, and supports strategic decision-making. This project will help HR proactively address workforce challenges and align talent strategies with organizational goals.
 
 
 
